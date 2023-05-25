@@ -11,7 +11,7 @@
     "resetdb": "knex migrate:rollback && knex migrate:latest && knex seed:run",
     "server": "nodemon index.js"
   },
-  "homepage": "https://github.com/bahargumuser/tarde-BE#readme",
+  "homepage": "https://github.com/P4CKt/tarde-be#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
