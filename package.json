@@ -10,9 +10,9 @@
     "rollback": "knex migrate:rollback",
     "seed": "knex seed:run",
     "test": "cross-env NODE_ENV=testing jest --verbose --runInBand",
-    "resetdb": "knex migrate:rollback && knex migrate:latest && knex seed:run",
+    "resetdb": "knex migrate:rollback && knex migrate:latest && knex seed:run"
   },
-   "keywords": [],
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -22,12 +22,11 @@
     "helmet": "^5.0.2",
     "jsonwebtoken": "^9.0.0",
     "knex": "^2.4.2",
-    "sqlite3": "^5.1.6",
-  
+    "sqlite3": "^5.1.6"
   },
   "devDependencies": {
     "nodemon": "^2.0.22",
     "cross-env": "7.0.3",
-      "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3"
   }
 }
