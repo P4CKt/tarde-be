@@ -12,6 +12,9 @@
     "test": "cross-env NODE_ENV=testing jest --verbose --runInBand",
     "resetdb": "knex migrate:rollback && knex migrate:latest && knex seed:run",
   },
+   "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
